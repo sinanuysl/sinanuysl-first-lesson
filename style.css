@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(yuriy-chemerys-M-52SPN77Bg-unsplash.jpg);
+    background-size: cover;
+}
+.box{
+    width: 400px;
+    background: #3f1717;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color:white;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.box img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.box img:hover{
+    transform: scale(0.9);
+}
+.box h1{
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-weight: 100;
+
+}
+.box h5{
+    font-size: 17px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;  
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box p{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box b{
+    display: inline-block;
+    font-size: 10px;
+    margin: 6px;
+    list-style: none;
+}
